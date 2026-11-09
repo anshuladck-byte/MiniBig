@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-black: #101311;
+  --color-navy: #172B3A;
+  --color-navy-hover: #12222E;
+  --color-forest: #347653;
+  --color-forest-hover: #2B6244;
+  --color-cream: #F5F0E4;
+  --color-white: #FFFFFF;
+  --color-sage: #DDE9D9;
+  --color-mist: #E2E9E8;
+  --color-sand: #EDE4D4;
+}
+
+@layer base {
+  body {
+    background-color: #F5F0E4;
+    color: #101311;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Custom scrollbar matching the campus palette */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #F5F0E4;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #C6D8D7;
+    border-radius: 9999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #172B3A;
+  }
+}
+
+/* Restrained focus ring */
+*:focus-visible {
+  outline: 2px solid #347653;
+  outline-offset: 2px;
+}

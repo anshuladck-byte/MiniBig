@@ -1,0 +1,33 @@
+﻿# Node.js
+node_modules/
+dist/
+npm-debug.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+backend/.venv/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# SQLite databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Understand Anything generated files
+.ua/
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

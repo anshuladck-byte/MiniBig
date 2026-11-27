@@ -31,3 +31,13 @@ backend/.venv/
 .idea/
 .DS_Store
 Thumbs.db
+
+# Local databases and backups
+*.bak
+*.backup
+
+# Logs
+*.log
+
+# Python environment
+.env.local
